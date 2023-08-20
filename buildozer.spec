@@ -4,7 +4,7 @@
 title = SignTopia
 
 # (str) Package name
-package.name = myappsign
+package.name = signtopia
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,ffpyplayer,pillow
+requirements = python3==3.9.7,kivy,ffpyplayer,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -64,7 +64,7 @@ orientation = landscape
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+osx.python_version = 3.9.7
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
